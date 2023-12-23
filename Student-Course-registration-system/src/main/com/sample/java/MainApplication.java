@@ -17,10 +17,10 @@ public class MainApplication {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			// enter your username
-			String username = "root";
+			String username = "";
 			
 			//enter your password
-			String password = "Manju@123";
+			String password = "";
 			
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/defaultdb", username, password);
 
