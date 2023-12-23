@@ -30,5 +30,3 @@ insert into student values(103,'Aarthi','C02');
 insert into student values(104,'Nikki','C01');
 
 select * from student;
-
-delete from student where studentId in(101,102,103,104);

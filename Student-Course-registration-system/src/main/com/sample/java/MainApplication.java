@@ -17,10 +17,10 @@ public class MainApplication {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			// enter your username
-			String username = "";
+			String username = "root";
 			
 			//enter your password
-			String password = "";
+			String password = "Manju@123";
 			
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/defaultdb", username, password);
 
@@ -45,7 +45,6 @@ public class MainApplication {
 				st.executeUpdate(sql1);
 				num++;
 			}
-			;
 
 			System.out.println("Inserted data into table successfully!!");
 
